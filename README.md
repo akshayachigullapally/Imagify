@@ -50,54 +50,37 @@ Imagify is a web application that allows users to generate stunning images from 
    cd server
    npm install
 Create a .env file in the server directory and add the following:
-MONGODB_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-CLIPDROP_API=<your-clipdrop-api-key>
-RAZORPAY_KEY_ID=<your-razorpay-key-id>
-RAZORPAY_KEY_SECRET=<your-razorpay-key-secret>
-CURRENCY=INR
+   ```sh
+   MONGODB_URI=<your-mongodb-uri>
+   JWT_SECRET=<your-jwt-secret>
+   CLIPDROP_API=<your-clipdrop-api-key>
+   RAZORPAY_KEY_ID=<your-razorpay-key-id>
+   RAZORPAY_KEY_SECRET=<your-razorpay-key-secret>
+   CURRENCY=INR
 
-Start the server:
-```sh
-npm run server
 ```
+   Start the server:
+   ```sh
+   npm run server
+   ```
 3. Set up the client:
    ```sh
    cd ../client
    npm install
 
 Create a .env file in the client directory and add the following:
-VITE_BACKEND_URL=http://localhost:4000
-VITE_RAZORPAY_KEY_ID=<your-razorpay-key-id>
+   ```sh
+   VITE_BACKEND_URL=http://localhost:4000
+   VITE_RAZORPAY_KEY_ID=<your-razorpay-key-id>
 
-Start the client:
-```sh
-npm run dev
+```
+   Start the client:
+   ```sh
+   npm run dev
 
 ```
 Open the application in your browser at http://localhost:5173.
 
-
-Workspace
-(rerun without)
-Collecting workspace information
-
-Here is a README.md file for your application:
-
-Set up the server:
-
-Create a .env file in the server directory and add the following:
-
-1 vulnerability
-Start the server:
-
-Set up the client:
-
-Create a .env file in the client directory and add the following:
-
-Start the client:
-
-Open the application in your browser at http://localhost:5173.
 
 
 Folder Structure
